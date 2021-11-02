@@ -149,7 +149,7 @@ exports.postSignup = (req, res, next) => {
     
         })
             .then(result => {
-                // res.redirect('/login');
+                 res.redirect('/login');
                 // return transporter.sendMail({
                 //     to: email,
                 //     from: 'shop@node-complete.com',
